@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Montserrat';
 }
 .header{
     width: 100%;
@@ -64,13 +65,13 @@ img{
 .content-container{
     display: flex;
     justify-content: space-evenly;
-    background-color: aqua;
+    background-color: #101010;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 100%;
 }
 
 .item-1{
@@ -81,4 +82,94 @@ img{
 .item-2{
     height: 700px;
     background-color: powderblue;
+}
+
+.box{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: #777;
+	margin: 15px;
+	overflow: hidden;
+	border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.a{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/About.jpg');
+}
+
+.m {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/Menu.jpg');
+}
+
+.p{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/Promotions.jpg');
+}
+
+.icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+  
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+
+.box:hover .icon{
+	height: 20%;
+    border-radius: 10px;
+    background: #101010;
+    transition: 0.5s;
+}
+
+
+
+.fa
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+    transition: 0.5s;
+	color: white;
+}
+
+
+
+.description{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+
+.button {
+    background: white;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.heading{
+    font-size: 35px;
+}
+
+p{
+    margin-top: 20px;
+	padding: 0;
+	font-size: 20px;
 }
