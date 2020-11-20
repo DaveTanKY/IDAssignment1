@@ -5,6 +5,11 @@
     text-decoration: none;
     font-family: 'Montserrat';
 }
+
+body{
+    
+    background-color: #101010;
+}
 .header{
     width: 100%;
     height: 100px;
@@ -19,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+   
 }
 
 .logo{
@@ -57,7 +63,7 @@ img{
     width: 100%;
     
 }
-.main {
+.index-main {
     width: 100%;
     height: auto;
 }
@@ -72,16 +78,6 @@ img{
     display: flex;
     flex-direction: column;
     width: 100%;
-}
-
-.item-1{
-    background-color: pink;
-   height: 500px;
-}
-
-.item-2{
-    height: 700px;
-    background-color: powderblue;
 }
 
 .box{
@@ -130,8 +126,6 @@ img{
     transition: 0.5s;
 }
 
-
-
 .fa
 {
 	position: absolute;
@@ -143,15 +137,12 @@ img{
 	color: white;
 }
 
-
-
-.description{
+.index-description{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
-    
 }
 
 .button {
@@ -172,4 +163,124 @@ p{
     margin-top: 20px;
 	padding: 0;
 	font-size: 20px;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    width: 50%;
+  }
+  
+  .tablink:hover {
+    background-color: #333;
+  }
+  
+.tabcontent {
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#breakfast {
+    background-color: #222;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lunch {
+    background-color: #222;
+    
+}
+
+.breakfastbanner{
+    display: block;
+}
+
+.menu-main{
+    width: 100%;
+}
+
+.menu-heading{
+    padding-top: 200px;
+    font-size: 50px;
+}
+
+.menu-items{
+    margin-top: 100px;
+    background: #222;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+
+.border{
+    margin-top: 10px;
+    width: 70%;
+    border-bottom: 1px solid white;
+    position: relative;
+    left: 15%;
+}
+
+.items{
+    height: 300px;
+    width: 300px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.food{
+    margin-top: -100px;
+    display: block;
+    height: 150%;
+    width: auto;
+}
+
+.menu-description{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    color: white;
+    transition: opacity 0.25s;
+}
+
+.menu-description:hover{
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 1117px ){
+
+    .menu-items{
+        flex-direction: column;
+    }
+    .menu-row{
+        display: flex;
+        justify-content: center;
+        
+    }
 }

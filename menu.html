@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"   >
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"><title>Index</title>
+</head>
+
+<body>  
+    
+    <div class="header">
+        <div class="header-content">
+            <div class="logo">
+                Wac<span>Donalds</span>
+            </div>
+            <div class="navigation">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a>Promotions</a>
+                <a>About</a>
+                <a>Account</a>
+            </div>
+        </div>
+    </div>
+    <div id="menu-main">
+        <img class="breakfastbanner" src="images/breakfast banner.png">
+    
+    
+        <button class="tablink" onclick="openPage('breakfast', this, '#222')" id="defaultOpen">Breakfast</button>
+        <button class="tablink" onclick="openPage('lunch', this, '#222')">Lunch</button>
+       
+        <div id="breakfast" class="tabcontent">
+           
+            
+                <div class="menu-heading">Main</div>
+                <div class="border"></div>
+                <div class="menu-row">
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg</div></div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin 2</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin 2</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg 2</div></div>
+                    </div>
+                </div>
+                <div class="menu-heading">Sides</div>
+                <div class="border"></div>
+                <div class="menu-row">
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg</div></div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin 2</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin 2</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg 2</div></div>
+                    </div>
+                </div>
+                <div class="menu-heading">Drinks</div>
+                <div class="border"></div>
+                <div class="menu-row">
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg</div></div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin 2</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin 2</div></div>
+                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg 2</div></div>
+                    </div>
+                </div>
+            
+        </div>
+        
+        <div id="lunch" class="tabcontent">
+            <h3>News</h3>
+            <p>Some news this fine day!</p> 
+        </div>
+    </div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script> 
+</body>
+</html>
