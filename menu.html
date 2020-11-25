@@ -25,11 +25,11 @@
         </div>
     </div>
     <div id="menu-main">
-        <img class="breakfastbanner" src="images/breakfast banner.png">
+        <img id="picture-banner" src="images/breakfast banner.png">
     
     
-        <button class="tablink" onclick="openPage('breakfast', this, '#222')" id="defaultOpen">Breakfast</button>
-        <button class="tablink" onclick="openPage('lunch', this, '#222')">Lunch</button>
+        <button class="tablink" onclick="openPage('breakfast', this, '#222');breakfast();" id="defaultOpen">Breakfast</button>
+        <button class="tablink" onclick="openPage('lunch', this, '#222');lunch();">Lunch</button>
        
         <div id="breakfast" class="tabcontent">
            
@@ -43,45 +43,82 @@
                         <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg</div></div>
                     </div>
                     <div class="menu-items">
-                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin 2</div></div>
-                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin 2</div></div>
-                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg 2</div></div>
+                        <div class="items"><img class="food" src="images/Big Breakfast.png"><div class="menu-description">Big Breakfast</div></div>
+                        <div class="items"><img class="food" src="images/Breakfast Deluxe.png"><div class="menu-description">Breakfast Deluxe</div></div>
+                        <div class="items"><img class="food" src="images/Hotcakes.png"><div class="menu-description">Hotcakes</div></div>
                     </div>
                 </div>
                 <div class="menu-heading">Sides</div>
                 <div class="border"></div>
                 <div class="menu-row">
-                    <div class="menu-items">
-                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin</div></div>
-                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin</div></div>
-                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg</div></div>
-                    </div>
-                    <div class="menu-items">
-                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin 2</div></div>
-                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin 2</div></div>
-                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg 2</div></div>
+                    <div class="menu-items sides">
+                        <div class="items"><img class="food" src="images/Hashbrown.png"><div class="menu-description">Hashbrown</div></div>
+                        <div class="items"><img class="food" src="images/Corn Cup.png"><div class="menu-description">Corn Cup</div></div>
                     </div>
                 </div>
                 <div class="menu-heading">Drinks</div>
                 <div class="border"></div>
                 <div class="menu-row">
                     <div class="menu-items">
-                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin</div></div>
-                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin</div></div>
-                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg</div></div>
+                        <div class="items"><img class="food" src="images/Iced Latte.png"><div class="menu-description">Iced Latte</div></div>
+                        <div class="items"><img class="food" src="images/Latte.png"><div class="menu-description">Latte</div></div>
+                        <div class="items"><img class="food" src="images/Premium Roast Coffee.png"><div class="menu-description">Premium Roast Coffee</div></div>
                     </div>
                     <div class="menu-items">
-                        <div class="items"><img class="food" src="images/egg mcmuffin.png"><div class="menu-description">Egg WcMuffin 2</div></div>
-                        <div class="items"><img class="food" src="images/sausage mcmuffin.png"><div class="menu-description">Sausage WcMuffin 2</div></div>
-                        <div class="items"><img class="food" src="images/sausage mcmuffin with egg.png"><div class="menu-description">Sausage WcMuffin with Egg 2</div></div>
+                        <div class="items"><img class="food" src="images/Caramel Frappe.png"><div class="menu-description">Caramel Frappe</div></div>
+                        <div class="items"><img class="food" src="images/Mocha Frappe.png"><div class="menu-description">Mocha Frappe</div></div>
+                        <div class="items"><img class="food" src="images/Coca-Cola Less Sugar.png"><div class="menu-description">Coca-Cola Original Taste Less Sugar</div></div>
                     </div>
                 </div>
             
         </div>
         
         <div id="lunch" class="tabcontent">
-            <h3>News</h3>
-            <p>Some news this fine day!</p> 
+            <div class="menu-heading">Main</div>
+                <div class="border"></div>
+                <div class="menu-row">
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/Beeg Wac.png"><div class="menu-description">Beeg Wac</div></div>
+                        <div class="items"><img class="food" src="images/Duble Wc Spoisy.png"><div class="menu-description">Duble Wc Spoisy</div></div>
+                        <div class="items"><img class="food" src="images/Double Filet-O-Fish.png"><div class="menu-description">Double Filet-O-Fish</div></div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/Angus BLT.png"><div class="menu-description">Samurai Beef Burger</div></div>
+                        <div class="items"><img class="food" src="images/Angus Cheesburger.png"><div class="menu-description">Hokkaido Salmon Burger</div></div>
+                        <div class="items"><img class="food" src="images/Buttermilk Crispy Chicken.png"><div class="menu-description">Buttermilk Crispy Chicken</div></div>
+                    </div>
+                </div>
+                <div class="menu-heading">Sides</div>
+                <div class="border"></div>
+                <div class="menu-row">
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/French Fries.png"><div class="menu-description">French Fries</div></div>
+                        <div class="items"><img class="food" src="images/Chicken Nuggets.png"><div class="menu-description">Chicken Nuggets</div></div>
+                        <div class="items"><img class="food" src="images/Spicy Chicken Nuggets.png"><div class="menu-description">Spicy Chicken Nuggets</div></div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/Corn Cup.png"><div class="menu-description">Corn Cup</div></div>
+                        <div class="items"><img class="food" src="images/Apple Pie.png"><div class="menu-description">Apple Pie</div></div>
+                        <div class="items"><img class="food" src="images/Garden Side Salad.png"><div class="menu-description">Garden Side Salad</div></div>
+                    </div>
+                </div>
+                <div class="menu-heading">Drinks</div>
+                <div class="border"></div>
+                <div class="menu-row">
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/Iced Latte.png"><div class="menu-description">Iced Latte</div></div>
+                        <div class="items"><img class="food" src="images/Latte.png"><div class="menu-description">Latte</div></div>
+                        <div class="items"><img class="food" src="images/Premium Roast Coffee.png"><div class="menu-description">Premium Roast Coffee</div></div>
+                    </div>
+                    <div class="menu-items">
+                        <div class="items"><img class="food" src="images/Caramel Frappe.png"><div class="menu-description">Caramel Frappe</div></div>
+                        <div class="items"><img class="food" src="images/Mocha Frappe.png"><div class="menu-description">Mocha Frappe</div></div>
+                        <div class="items"><img class="food" src="images/Coca-Cola Less Sugar.png"><div class="menu-description">Coca-Cola Original Taste Less Sugar</div></div>
+                    </div>
+                </div>
+        </div>
+        <div class="footer">
+            COPYRIGHT© 2020 ALL RIGHTS RESERVED BY WcDONALD'S 
         </div>
     </div>
 
@@ -98,10 +135,33 @@ function openPage(pageName,elmnt,color) {
     }
     document.getElementById(pageName).style.display = "block";
     elmnt.style.backgroundColor = color;
+
 }
 
-// Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+function pictureChange()
+  {
+   document.getElementById("picture-banner").src="images/lunch banner.jpg";
+  }
+
+function lunch(){ 
+    document.getElementById('picture-banner') 
+    .src="images/lunch banner.jpg"; 
+} 
+
+function breakfast(){
+    document.getElementById('picture-banner')
+    .src="images/breakfast banner.png";
+}
+
+
+
+var btn = document.getElementById("picture-banner");
+
+btn.addEventListener("click", sayHello);
+btn.addEventListener("click", sayHi);
+
 </script> 
 </body>
 </html>

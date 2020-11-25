@@ -8,7 +8,7 @@
 
 body{
     
-    background-color: #101010;
+    background-color: #222;
 }
 .header{
     width: 100%;
@@ -55,14 +55,88 @@ span{
 
 .slideshow-container{
     width: 100%;
-    height: 500px;
+    height: auto;
+    position: relative;
     background-color: wheat;
+}
+
+.slider-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.mySlides{
+    display: none;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 25px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next{
+    right: 0;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caption-text{
+    color: white;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.dot{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    background: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #777;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    form {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade{
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 img{
     width: 100%;
-    
 }
+
 .index-main {
     width: 100%;
     height: auto;
@@ -71,7 +145,7 @@ img{
 .content-container{
     display: flex;
     justify-content: space-evenly;
-    background-color: #101010;
+    background-color: #222;
 }
 
 .content{
@@ -84,7 +158,7 @@ img{
 	position: relative;
 	width: 100%;
 	height: 500px;
-	background: #777;
+	background-image: radial-gradient(white, #999);
 	margin: 15px;
 	overflow: hidden;
 	border-radius: 10px;
@@ -92,7 +166,7 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid #444;
 }
 
 .a{
@@ -113,16 +187,16 @@ img{
 	left: 0;
 	width: 100%;
     height: 100%;
-  
     background-repeat: no-repeat;
     transition: 0.5s;
 }
 
 
+
 .box:hover .icon{
 	height: 20%;
-    border-radius: 10px;
-    background: #101010;
+    border-radius: 5px;
+    background: #666;
     transition: 0.5s;
 }
 
@@ -142,17 +216,24 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: #222;
 }
 
 .button {
-    background: white;
+    background: #222;
     margin-top: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 50%;
     border-radius: 10px;
     font-size: 30px;
+    color: white;
+}
+
+.link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .heading{
@@ -202,8 +283,9 @@ p{
     
 }
 
-.breakfastbanner{
+#picture-banner{
     display: block;
+    height: 566px;
 }
 
 .menu-main{
@@ -249,8 +331,8 @@ p{
 .food{
     margin-top: -100px;
     display: block;
-    height: 150%;
-    width: auto;
+    height: 140%;
+    width: 140%;
 }
 
 .menu-description{
@@ -272,15 +354,32 @@ p{
     opacity: 1;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-top: 50px;
+    color: white;
+}
 
 @media only screen and (max-width: 1117px ){
 
     .menu-items{
         flex-direction: column;
+        
     }
     .menu-row{
+        width: 100%;
         display: flex;
         justify-content: center;
-        
+        align-items: center;
+    }
+
+    .sides{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0;
     }
 }

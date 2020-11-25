@@ -26,40 +26,93 @@
     </div>
     <div class="index-main">
         <div class="slideshow-container">
-            <!--<img src="images/MacDonalds.jpg">-->
+            <div class="mySlides fade">
+                <img class="slider-image" src="images/Hokkaido Salmon Burger banner.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img class="slider-image" src="images/Samurai Burger.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img class="slider-image" src="images/Double Up.jpg">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(+1)">&#10095</a>
+        </div>
+        <br>
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
         
         <div class="content-container">
             <div class="box">
                 <div class="icon a"><span class="fa">About</span></div>
+                
                 <div class="index-description">
                     
                     <p>Click to learn more about our story!</p>
-                    <div class="button"><a href="#">Our Story</a></div>
+                    <a class="link" href="about.html"><div class="button">Our Story</div></a>
                     
                 </div>
+             
             </div>
             <div class="box">
                 <div class="icon m"><span class="fa">Menu</span></div>
                     <div class="index-description">
                         
-                        <p>Click to learn more about our Menu!</p>
-                        <div class="button"><a href="#">Menu</a></div>
+                        <p>Our menu offers various types of food from Breakfast Muffins to Beef Burgers.</p>
+                            <p>Click to learn more about our Menu!</p>
+                        
+                        <a class="link" href="menu.html"><div class="button">Menu</div></a>
                     </div>
             </div>
             <div class="box">
                 <div class="icon p"><span class="fa">Promotions</span></div>
                 <div class="index-description">
-                    
+                    <p>Keep up to date with our Promotions! Get more for Less!</p>
                     <p>Click to learn more about our Promotions!</p>
-                    <div class="button"><a href="#">Promotions</a></div>
+                    <a class="link" href="promotions.html"><div class="button">Promotions</div></a>
                     
                 </div>
             </div>
         </div>
         </div>
+        <div class="footer">
+            COPYRIGHT© 2020 ALL RIGHTS RESERVED BY WcDONALD'S 
+        </div>
     </div>
 
-    
+    <script>
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    </script>
 </body>
 </html>
