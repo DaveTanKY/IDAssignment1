@@ -26,7 +26,7 @@ I feel that this also seperates the menus as not every item is available at the 
 
 #Technologies Used
 I used javascript to be able to make the tab section in my menu page work.
-
+I used javascript to make the image slider on the index page work.
 
 
 #Testing
@@ -36,17 +36,24 @@ I used javascript to be able to make the tab section in my menu page work.
 
 #Credits
 Content
-- The text for About page was taken from https://www.mcdonalds.com.sg/our-brands/mcdonalds-brand/
+The text for About page was taken from 
+- https://www.mcdonalds.com/us/en-us/about-us.html
+- https://www.mcdonalds.com/us/en-us/about-our-food/our-food-philosophy/commitment-to-quality.html
 
 
 Media
 Slider Pictures - https://www.facebook.com/mcdsg/
-Menu picture - https://www.mcdonalds.com.sg/our-food/
+Menu pictures - https://www.mcdonalds.com.sg/our-food/
 About Us Picture - https://www.eatthis.com/mcdonalds-employee-confessions/
 Promotions Picture - https://www.mcdonalds.com.sg/extravaluemeals/
+Pictures from About page
+- https://twisper.com/blog/worlds-best-burgers/
+- https://www.mcdonalds.com/us/en-us/about-us.html
+Social Media Icons - https://boxicons.com/
 
 Acknowledgements
 - I recieved inspiration for this project from MacDonalds, Burger King, KFC
+- I also got ideas from learning different things on https://www.w3schools.com/
 
 
 
