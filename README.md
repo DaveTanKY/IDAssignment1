@@ -1,4 +1,4 @@
-#Wacdonalds-website
+# Wacdonalds-website
 The site's users are fans and potential customers who wish to learn more about the company history, menu items and promotions.
 The website is catering to those interested in finding out more about what the company can offer them. This includes browsing their menu
 , learning more about their history and finding out about the latest events and promotions
@@ -7,7 +7,7 @@ This site is able to display their menu items, about us and promotions page whic
 
 GitHub Site - https://davetanky.github.io/IDAssignment1/
 
-#Design Process
+# Design Process
 
 From my experience, websites with many different colors make it hard for the user to understand what it is that they are supposed to look at.
 
@@ -16,7 +16,7 @@ This made it so that the content is able to stand out more which attracts the ey
 
 I also found that a website jam packed with different items can be very hard to navigate, because of this, i have opted to do a very minimalistic design to make the contents of the page much clearer to the user.
 
-#Features
+# Features
 For my design process, i first started out with making the header. I chose to make the header simple and easy to navigate so that customers will feel less overwhelmed. In some websites that i have visited, 
 the navigation bars had too many things like dropdown menus and moving parts that it become very confusing to navigate.
 
@@ -47,16 +47,31 @@ The promotions page allows the users to see what the current promotions are. For
 I chose to use a similar animation which now display items sideways instead of top to bottom.
 This makes the website more interestintg an interactive as if the user is uncovering the different offers that the site has to offer.
 
-#Technologies Used
+# Technologies Used
 I used javascript to be able to make the tab section in my menu page work.
 I used javascript to make the image slider on the index page work.
 
 
-#Testing
+# Testing
 Contact form test:
 1. Go to about us page
-2. Fill in particulars
-3. If email address is not properly filled in, user will not be able to submit and will be prompted to fill it in again
+    1. Fill in particulars
+    2. If email address is not properly filled in, user will not be able to submit and will be prompted to fill it in again
+
+2. Responsive
+    1. Reduce the browser size
+    2. The contents of the page should all still be visible.
+    3. The contents may have changed alignment from being in a row to being in a column.
+
+3. Browsers tested on
+    1. Google Chrome
+    2. Microsoft Edge
+    3. Opera
+
+4. Bugs Discovered
+    1.Internet Explorer
+    - Some functions on internet explorer such as javascript does not work.
+    Because of this, the image slider on the index page and the tab bar for the menu page does not work properly.
 
 When making the animations for the boxes on the home page. I had quite a bit of trouble starting as i was not yet familiar with how the properties work.
 I had to go through different websites like w3 schools to learn how the :hover feature in css works.
@@ -90,40 +105,40 @@ on mobile devices. To accomodate that i also had to add font weight to the text 
 This website is responsive and mobile devices will be able to surf this page as well. The mobile view for the website will have different layouts. Most of which will be aligned vertically instead of horizontally
 as the mobile screen is much smaller than on a computer. This allows the mobile user to still be able to find all the information they need using their mobile phones.
 
-#Credits
+# Credits
 Content
 The text for About page was taken from 
-- https://www.mcdonalds.com/us/en-us/about-us.html
-- https://www.mcdonalds.com/us/en-us/about-our-food/our-food-philosophy/commitment-to-quality.html
+- [McDonald's About Page](https://www.mcdonalds.com/us/en-us/about-us.html)
+- [McDonald's Food](https://www.mcdonalds.com/us/en-us/about-our-food/)
 
 The text for promotions page was taken from
-- https://www.mcdonalds.com.sg/bigmac/
-- https://www.mcdonalds.com.sg/extravaluemeals/
-- https://www.mcdonalds.com.sg/mcspicydeluxe/
-- https://singaporefoodie.com/mcdonalds-spore-to-bring-back-ebi-burgers-plus-white-choc-strawberry-cream-pie/
-- http://bq.sg/2017/08/21/mcdonalds-enjoy-1-1-frappe-mccafe-week/
+- [McDonald's Big Mac](https://www.mcdonalds.com.sg/bigmac/)
+- [McDonald's Extra Value Meals](https://www.mcdonalds.com.sg/extravaluemeals/)
+- [McDonald's Mc Spicy](https://www.mcdonalds.com.sg/mcspicydeluxe/)
+- [Singaporefoodie](https://singaporefoodie.com/mcdonalds-spore-to-bring-back-ebi-burgers-plus-white-choc-strawberry-cream-pie/)
+- [bq](http://bq.sg/2017/08/21/mcdonalds-enjoy-1-1-frappe-mccafe-week/)
 
 
 Media
-Slider Pictures - https://www.facebook.com/mcdsg/
-Menu pictures - https://www.mcdonalds.com.sg/our-food/
-About Us Picture - https://www.eatthis.com/mcdonalds-employee-confessions/
+Slider Pictures - [Facebook McDonald's](https://www.facebook.com/mcdsg/)
+Menu pictures - [McDonald's Our Food](https://www.mcdonalds.com.sg/our-food/)
+About Us Picture - [eatthis McDonalds Employee](https://www.eatthis.com/mcdonalds-employee-confessions/)
 Pictures for promotion page 
-- https://www.mcdonalds.com.sg/bigmac/
-- https://www.mcdonalds.com.sg/extravaluemeals/
-- https://www.mcdonalds.com.sg/mcspicydeluxe/
-- https://singaporefoodie.com/mcdonalds-spore-to-bring-back-ebi-burgers-plus-white-choc-strawberry-cream-pie/
-- http://bq.sg/2017/08/21/mcdonalds-enjoy-1-1-frappe-mccafe-week/
+- [McDonald's BigMac](https://www.mcdonalds.com.sg/bigmac/)
+- [McDonald's Extra Value Meals](https://www.mcdonalds.com.sg/extravaluemeals/)
+- [McDonald's Mc Spicy Deluxe](https://www.mcdonalds.com.sg/mcspicydeluxe/)
+- [Singaporefoodie](https://singaporefoodie.com/mcdonalds-spore-to-bring-back-ebi-burgers-plus-white-choc-strawberry-cream-pie/)
+- [bq Promotions](http://bq.sg/2017/08/21/mcdonalds-enjoy-1-1-frappe-mccafe-week/)
 
 Pictures from About page
-- https://twisper.com/blog/worlds-best-burgers/
-- https://www.mcdonalds.com/us/en-us/about-us.html
+- [twisper burger](https://twisper.com/blog/worlds-best-burgers/)
+- [McDonald's](https://www.mcdonalds.com/us/en-us/about-us.html)
 
-Social Media Icons - https://boxicons.com/
+Social Media Icons - [Boxicons Social Media](https://boxicons.com/)
 
 Acknowledgements
 - I recieved inspiration for this project from MacDonalds, Burger King, KFC, Itacho Sushi
-- I also got ideas from learning different things on https://www.w3schools.com/
+- I also got ideas from learning different things on [w3 Schools](https://www.w3schools.com/)
 
 
 
