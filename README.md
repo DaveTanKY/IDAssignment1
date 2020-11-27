@@ -5,7 +5,7 @@ The website is catering to those interested in finding out more about what the c
 This site is able to display their menu items, about us and promotions page which allows users to easily navigate through to find what they are looking for about the company.
 
 
-GitHub Site - https://davetanky.github.io/wacdonalds-website/
+GitHub Site - https://davetanky.github.io/IDAssignment1/
 
 #Design Process
 
