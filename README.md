@@ -16,9 +16,6 @@ This made it so that the content is able to stand out more which attracts the ey
 
 I also found that a website jam packed with different items can be very hard to navigate, because of this, i have opted to do a very minimalistic design to make the contents of the page much clearer to the user.
 
-
-
-
 #Features
 For my design process, i first started out with making the header. I chose to make the header simple and easy to navigate so that customers will feel less overwhelmed. In some websites that i have visited, 
 the navigation bars had too many things like dropdown menus and moving parts that it become very confusing to navigate.
@@ -52,6 +49,11 @@ I used javascript to make the image slider on the index page work.
 
 
 #Testing
+Contact form test:
+1. Go to about us page
+2. Fill in particulars
+3. If email address is not properly filled in, user will not be able to submit and will be prompted to fill it in again
+
 Originally when doing the index page, i had some trouble making my boxes responsive as the picture inside would get cut off halfway and the width was not acting the way i wanted it to.
 I fixed this by changing the various width properties used when making the boxes.
 
@@ -64,7 +66,8 @@ To combat this, instead of using flex-wrap, i used flex-direction: column instea
 I had trouble making the promotions page responsive. I played around with it and ended up changing the width sizes of the box during different pixel width of the device. I also changed the placing of some of the text
 on mobile devices. To accomodate that i also had to add font weight to the text to make sure it is visible.
 
-
+This website is responsive and mobile devices will be able to surf this page as well. The mobile view for the website will have different layouts. Most of which will be aligned vertically instead of horizontally
+as the mobile screen is much smaller than on a computer. This allows the mobile user to still be able to find all the information they need using their mobile phones.
 
 #Credits
 Content
