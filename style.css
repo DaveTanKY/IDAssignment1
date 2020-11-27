@@ -18,6 +18,7 @@ body{
     background-color: #222;
 }
 
+/* styling of the inner header that contains logo and nav buttons */
 .header-content{
     width: 1000px;
     height: 100%;
@@ -25,7 +26,6 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-   
 }
 
 .logo{
@@ -58,6 +58,7 @@ span{
     color: white;
 }
 
+/* changing color of button when user hovers over it */
 .navbutton:hover{
     color: #777;
 }
@@ -76,10 +77,12 @@ span{
     height: auto;
 }
 
+/* hides the rest of the slides currently not displayed */
 .mySlides{
     display: none;
 }
 
+/* styling of previous and next buttons */
 .prev, .next{
     cursor: pointer;
     position: absolute;
@@ -103,16 +106,6 @@ span{
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.caption-text{
-    color: white;
-    font-size: 30px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
 .dot{
     cursor: pointer;
     height: 20px;
@@ -128,6 +121,7 @@ span{
     background-color: #777;
 }
 
+/* animation of image slider */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -161,11 +155,6 @@ img{
     background-color: #222;
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
 
 /* .box is the bottom layer of the main content which is hidden until the user hovers over it */
 .box{
@@ -183,6 +172,7 @@ img{
     border: 2px solid white;
 }
 
+/* setting of background image for the different boxes */
 .a{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/About.jpg');
 }
@@ -195,6 +185,7 @@ img{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/Promotions.jpg');
 }
 
+/* placing the first layer on top of .box */
 .icon{
 	position: absolute;
 	top: 0;
@@ -225,6 +216,7 @@ img{
 	color: white;
 }
 
+/* contents of .box */
 .index-description{
     width: 100%;
     display: flex;
@@ -294,6 +286,7 @@ p{
     
 }
 
+/* display: block to remove picture underline issue */
 #picture-banner{
     display: block;
     height: 566px;
@@ -308,6 +301,7 @@ p{
     font-size: 50px;
 }
 
+/* styling of menu items */
 .menu-items{
     margin-top: 100px;
     background: #222;
@@ -318,6 +312,7 @@ p{
    
 }
 
+/* circle border around the food */
 .border{
     margin-top: 10px;
     width: 70%;
@@ -326,6 +321,7 @@ p{
     left: 15%;
 }
 
+/* styling of individual items */
 .items{
     height: 300px;
     width: 300px;
@@ -338,7 +334,7 @@ p{
     overflow: hidden;
     margin-top: 100px;
 }
-
+/* enlarging the food items to look better in the circle border */
 .food{
     margin-top: -100px;
     display: block;
@@ -346,6 +342,7 @@ p{
     width: 140%;
 }
 
+/* description of items that cannot be seen until hovered over */
 .menu-description{
     position: absolute;
     top: 0;
@@ -361,6 +358,7 @@ p{
     transition: opacity 0.25s;
 }
 
+/* shows the hidden menu description */
 .menu-description:hover{
     opacity: 1;
 }
@@ -396,6 +394,7 @@ p{
     width: 50%;
 }
 
+/* container for first about us item */
 .about-us-1{
     display: flex;
     justify-content: center;
@@ -404,6 +403,7 @@ p{
     padding-bottom: 100px;
 }
 
+/* container for second about us item */
 .about-us-2{
     display: flex;
     justify-content: center;
@@ -491,12 +491,14 @@ form p{
     color: #222;
 }
 
+/* aligning social media icons to the center */
 .social-container{
     display: flex;
     width: 50%;
     justify-content: center;
 }
 
+/* adjusting size of social media icons */
 .socialmedia{
     width: 50px;
     height: auto;
@@ -524,6 +526,7 @@ form p{
     margin-bottom: 50px;
 }
 
+/* bottom layer of the promotions box */
 .promo-box{
     display: flex;
     justify-content: flex-end;
@@ -536,6 +539,7 @@ form p{
     border: 2px solid black;
 }
 
+/* information of promotion on the bottom layer */
 .promoinformation{
     width: 35%;
     font-size: 25px;
@@ -544,6 +548,7 @@ form p{
     text-align: justify;
 }
 
+/* top layer of promotions box that covers the information */
 .promo-cover{
     display: flex;
     justify-content: flex-end;
@@ -556,6 +561,7 @@ form p{
     
 }
 
+/* changing images for the various promotions */
 .promo1{
     background: url('images/Promotions.jpg');
     background-repeat: no-repeat;
@@ -581,6 +587,7 @@ form p{
     background-repeat: no-repeat;
 }
 
+/* text of the top layer that is displayed before hovering */
 .before{
     margin-right: 20px;
     position: absolute;
@@ -590,6 +597,7 @@ form p{
     text-align: right;
 }
 
+/* shrinks top layer to reveal bottom layer of information */
 .promo-box:hover .promo-cover{
     justify-content: center;
     color: white;
@@ -599,6 +607,7 @@ form p{
     border-right: 2px solid black;
 }
 
+/* makes the promotion image darker to contrast with  the bright background the information has */
 .promo-box:hover .promo1{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/Promotions.jpg');
     background-repeat: no-repeat;
@@ -624,19 +633,23 @@ form p{
     background-repeat: no-repeat;
 }
 
+/* top layer text after user is hovering */
 .after{
     display: none;
     font-size: 25px;
 }
 
+/* displays new text */
 .promo-box:hover .after{
     display: flex;
 }
 
+/* hides previous text */
 .promo-box:hover .before{
     display: none;
 }
 
+/* displays information on the bottom layer */
 .promo-box:hover .promoinformation{
     display: flex;
 }
