@@ -68,7 +68,6 @@ span{
     width: 100%;
     height: auto;
     position: relative;
-    background-color: wheat;
 }
 
 .slider-image{
@@ -174,15 +173,15 @@ img{
 
 /* setting of background image for the different boxes */
 .a{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/About.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/About.jpg');
 }
 
 .m {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/Menu.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Menu.jpg');
 }
 
 .p{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/Promotions.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Promotions.jpg');
 }
 
 /* placing the first layer on top of .box */
@@ -563,27 +562,27 @@ form p{
 
 /* changing images for the various promotions */
 .promo1{
-    background: url('images/Promotions.jpg');
+    background: url('../images/Promotions.jpg');
     background-repeat: no-repeat;
 }
 
 .promo2{
-    background: url("images/big-wac-promotion.jpg");
+    background: url("../images/big-wac-promotion.jpg");
     background-repeat: no-repeat;
 }
 
 .promo3{
-    background: url("images/wcspicy-promotion.jpg");
+    background: url("../images/wcspicy-promotion.jpg");
     background-repeat: no-repeat;
 }
 
 .promo4{
-    background: url("images/ebi-promotion.jpg");
+    background: url("../images/ebi-promotion.jpg");
     background-repeat: no-repeat;
 }
 
 .promo5{
-    background: url("images/frappe-promotion.jpeg");
+    background: url("../images/frappe-promotion.jpeg");
     background-repeat: no-repeat;
 }
 
@@ -609,27 +608,27 @@ form p{
 
 /* makes the promotion image darker to contrast with  the bright background the information has */
 .promo-box:hover .promo1{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/Promotions.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Promotions.jpg');
     background-repeat: no-repeat;
 }
 
 .promo-box:hover .promo2{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/big-wac-promotion.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/big-wac-promotion.jpg');
     background-repeat: no-repeat;
 }
 
 .promo-box:hover .promo3{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/wcspicy-promotion.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/wcspicy-promotion.jpg');
     background-repeat: no-repeat;
 }
 
 .promo-box:hover .promo4{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/ebi-promotion.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/ebi-promotion.jpg');
     background-repeat: no-repeat;
 }
 
 .promo-box:hover .promo5{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/frappe-promotion.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/frappe-promotion.jpeg');
     background-repeat: no-repeat;
 }
 
