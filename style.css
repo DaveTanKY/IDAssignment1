@@ -10,6 +10,7 @@ body{
     
     background-color: #222;
 }
+/* styling of heder */
 .header{
     width: 100%;
     height: 100px;
@@ -42,6 +43,7 @@ span{
     font-weight: 800;
 }
 
+/* styling for navigation */
 .navigation{
     display: flex;
 }
@@ -60,6 +62,7 @@ span{
     color: #777;
 }
 
+/* styling for slideshow container */
 .slideshow-container{
     width: 100%;
     height: auto;
@@ -72,6 +75,7 @@ span{
     width: 100%;
     height: auto;
 }
+
 .mySlides{
     display: none;
 }
@@ -90,6 +94,7 @@ span{
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
+
 .next{
     right: 0;
 }
@@ -144,6 +149,7 @@ img{
     width: 100%;
 }
 
+/* styling for the main content of the index page */
 .index-main {
     width: 100%;
     height: auto;
@@ -161,6 +167,7 @@ img{
     width: 100%;
 }
 
+/* .box is the bottom layer of the main content which is hidden until the user hovers over it */
 .box{
 	position: relative;
 	width: 100%;
@@ -199,7 +206,7 @@ img{
 }
 
 
-
+/* shrinks the top layer to reveal .box */
 .box:hover .icon{
 	height: 20%;
     border-radius: 5px;
@@ -253,6 +260,7 @@ p{
 	font-size: 20px;
 }
 
+/* styling of the menu pages tab */
 .tablink {
     background-color: #555;
     color: white;
@@ -279,10 +287,6 @@ p{
 
 #breakfast {
     background-color: #222;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #lunch {
@@ -361,15 +365,16 @@ p{
     opacity: 1;
 }
 
+/* styling of footer */
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 75px;
     color: white;
-    
 }
 
+/* styling of about pages content */
 .about-container{
     display: flex;
     justify-content: center;
@@ -424,6 +429,7 @@ p{
     width: 100%;
 }
 
+/* styling of contact us form */
 form{
 	display: flex;
 	flex-direction: column;
@@ -496,6 +502,153 @@ form p{
     height: auto;
 }
 
+/* styling of promotions page */
+
+.promotions-container{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to bottom, #222, white);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promotions-header{
+    text-align: center;
+    border-bottom: 2px solid white;
+    color: white;
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.promo-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    height: 600px;
+    background: white;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.promoinformation{
+    width: 35%;
+    font-size: 25px;
+    margin-right: 20px;
+    display: none;
+    text-align: justify;
+}
+
+.promo-cover{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    color: black;
+    
+}
+
+.promo1{
+    background: url('images/Promotions.jpg');
+    background-repeat: no-repeat;
+}
+
+.promo2{
+    background: url("images/big\ wac\ promotion.jpg");
+    background-repeat: no-repeat;
+}
+
+.promo3{
+    background: url("images/wcspicy\ promotion.jpg");
+    background-repeat: no-repeat;
+}
+
+.promo4{
+    background: url("images/ebi\ promotion.jpg");
+    background-repeat: no-repeat;
+}
+
+.promo5{
+    background: url("images/frappe\ promotion.jpeg");
+    background-repeat: no-repeat;
+}
+
+.before{
+    margin-right: 20px;
+    position: absolute;
+    right: 20px;
+    font-size: 25px;
+    width: 20%;
+    text-align: right;
+}
+
+.promo-box:hover .promo-cover{
+    justify-content: center;
+    color: white;
+    width: 60%;
+    left: 0%;
+    transition: 0.5s;
+    border-right: 2px solid black;
+}
+
+.promo-box:hover .promo1{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/Promotions.jpg');
+    background-repeat: no-repeat;
+}
+
+.promo-box:hover .promo2{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/big\ wac\ promotion.jpg');
+    background-repeat: no-repeat;
+}
+
+.promo-box:hover .promo3{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/wcspicy\ promotion.jpg');
+    background-repeat: no-repeat;
+}
+
+.promo-box:hover .promo4{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/ebi\ promotion.jpg');
+    background-repeat: no-repeat;
+}
+
+.promo-box:hover .promo5{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/frappe\ promotion.jpeg');
+    background-repeat: no-repeat;
+}
+
+.after{
+    display: none;
+    font-size: 25px;
+}
+
+.promo-box:hover .after{
+    display: flex;
+}
+
+.promo-box:hover .before{
+    display: none;
+}
+
+.promo-box:hover .promoinformation{
+    display: flex;
+}
+
+/* responsive tweaking for promotions page */
+@media only screen and (max-width: 1555px) {
+    .promo-box{
+        width: 70%;
+    }
+}
+
+/* responsive tweaking for about page */
 @media only screen and (max-width: 1395px) {
     .about-content{
         display: flex;
@@ -521,12 +674,20 @@ form p{
         margin: 0;
         width: 50%;
     }
-
-    
     
 }
 
+/* responsive tweaking for various items */
 @media only screen and (max-width: 1117px ){
+
+    .before{
+        width: 50%;
+        font-weight: 800;
+    }
+    
+    .light{
+        color: white;
+    }
 
     .about-header{
         font-size: 20px;
@@ -552,5 +713,17 @@ form p{
 
     .header-content{
         width: 80%;
+    }
+}
+
+/* responsive tweaking for various items */
+@media only screen and (max-width: 1000px){
+    .content-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box{
+        width: 70%;
     }
 }

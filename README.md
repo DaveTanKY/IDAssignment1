@@ -1,10 +1,25 @@
 #Wacdonalds-website
-WacDonalds is a website that allows customers to browse their menus, learn more about their story and find promotions.
+The site's users are fans and potential customers who wish to learn more about the company history, menu items and promotions.
+The website is catering to those interested in finding out more about what the company can offer them. This includes browsing their menu
+, learning more about their history and finding out about the latest events and promotions
+This site is able to display their menu items, about us and promotions page which allows users to easily navigate through to find what they are looking for about the company.
 
 
 GitHub Site - https://davetanky.github.io/wacdonalds-website/
 
 #Design Process
+
+From my experience, websites with many different colors make it hard for the user to understand what it is that they are supposed to look at.
+
+For my design process, i wanted to make a simplistic site that is easy to navigate around. I wanted  to make a site that users will be able to find out whatever information they needed easily. To do this, i chose to stick to a black and white color scheme.
+This made it so that the content is able to stand out more which attracts the eyes of the user. 
+
+I also found that a website jam packed with different items can be very hard to navigate, because of this, i have opted to do a very minimalistic design to make the contents of the page much clearer to the user.
+
+
+
+
+#Features
 For my design process, i first started out with making the header. I chose to make the header simple and easy to navigate so that customers will feel less overwhelmed. In some websites that i have visited, 
 the navigation bars had too many things like dropdown menus and moving parts that it become very confusing to navigate.
 
@@ -20,9 +35,16 @@ or it becomes a button the users can click on to navigate to that page. In the e
 For my menu page, i wanted to make a tab where users can choose between the breakfast and lunch menus. I got this idea from various websites. This allows users to be able to change to a different menu that has a very similar layout seemlessly.
 I feel that this also seperates the menus as not every item is available at the same time. This way customers are able to see every item that is currently available to them.
 
-#Features
+I wanted to make my about page simple. I decided to add the image of the foudner as well as some background knowledge.
 
+I chose to find a picture of a burger and add text beside it. This represents one of the commitments the company has to serve quality food.
 
+I chose to add a social media section which allows the user to easily navigate to any social media the company has. this means they will be able to keep up to date with any events or promotions
+
+The contact page beneath the social media acts as a feedback form for any user that would like to contact the company through their email and number
+
+The promotions page allows the users to see what the current promotions are. For this page, i decided to make something similar to my index page. I chose to use a similar animation which now display items sideways instead of top to bottom.
+This makes the website more interestintg an interactive as if the user is uncovering the different offers that the site has to offer.
 
 #Technologies Used
 I used javascript to be able to make the tab section in my menu page work.
@@ -30,7 +52,17 @@ I used javascript to make the image slider on the index page work.
 
 
 #Testing
+Originally when doing the index page, i had some trouble making my boxes responsive as the picture inside would get cut off halfway and the width was not acting the way i wanted it to.
+I fixed this by changing the various width properties used when making the boxes.
 
+Another problem i faced when using pictures is there were these lines at the bottom of the picture that i could not get rid off.
+After some reasearching and trouble shooting, i fixed the problem by using the style "display: block" on the picture element. This finally got rid of the extra space at the bottom of my pictures.
+
+For my menu page, i had some trouble aligning my food items properly during responsive. They would align unevenly and did not wrap the way i wanted it to go.
+To combat this, instead of using flex-wrap, i used flex-direction: column instead to align them vertically. This made it much neater and it finally worked the way i had intended it to work in the first place.
+
+I had trouble making the promotions page responsive. I played around with it and ended up changing the width sizes of the box during different pixel width of the device. I also changed the placing of some of the text
+on mobile devices. To accomodate that i also had to add font weight to the text to make sure it is visible.
 
 
 
@@ -40,15 +72,29 @@ The text for About page was taken from
 - https://www.mcdonalds.com/us/en-us/about-us.html
 - https://www.mcdonalds.com/us/en-us/about-our-food/our-food-philosophy/commitment-to-quality.html
 
+The text for promotions page was taken from
+- https://www.mcdonalds.com.sg/bigmac/
+- https://www.mcdonalds.com.sg/extravaluemeals/
+- https://www.mcdonalds.com.sg/mcspicydeluxe/
+- https://singaporefoodie.com/mcdonalds-spore-to-bring-back-ebi-burgers-plus-white-choc-strawberry-cream-pie/
+- http://bq.sg/2017/08/21/mcdonalds-enjoy-1-1-frappe-mccafe-week/
+
 
 Media
 Slider Pictures - https://www.facebook.com/mcdsg/
 Menu pictures - https://www.mcdonalds.com.sg/our-food/
 About Us Picture - https://www.eatthis.com/mcdonalds-employee-confessions/
-Promotions Picture - https://www.mcdonalds.com.sg/extravaluemeals/
+Pictures for promotion page 
+- https://www.mcdonalds.com.sg/bigmac/
+- https://www.mcdonalds.com.sg/extravaluemeals/
+- https://www.mcdonalds.com.sg/mcspicydeluxe/
+- https://singaporefoodie.com/mcdonalds-spore-to-bring-back-ebi-burgers-plus-white-choc-strawberry-cream-pie/
+- http://bq.sg/2017/08/21/mcdonalds-enjoy-1-1-frappe-mccafe-week/
+
 Pictures from About page
 - https://twisper.com/blog/worlds-best-burgers/
 - https://www.mcdonalds.com/us/en-us/about-us.html
+
 Social Media Icons - https://boxicons.com/
 
 Acknowledgements
